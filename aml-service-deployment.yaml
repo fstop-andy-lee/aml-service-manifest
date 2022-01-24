@@ -152,7 +152,7 @@ spec:
       serviceAccountName: app-user
       containers:
         - name: aml-service
-          image: andylee1973/aml-service:latest
+          image: andylee1973/aml-service:1.0.0
           imagePullPolicy: Always #IfNotPresent
           args: ["--spring.config.location=/home/spring/app/conf/"]
           ports:
